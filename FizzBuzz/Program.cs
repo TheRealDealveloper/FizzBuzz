@@ -20,13 +20,10 @@ namespace FizzBuzz
             {
                 return "Fizz";
             }
-<<<<<<< HEAD
             else if (isDivisibleBy(number, 5))
             {
                 return "Buzz";
             }
-=======
->>>>>>> parent of 3d39860 (fixed failing buzz test)
             else
             {
                 return number.ToString();
