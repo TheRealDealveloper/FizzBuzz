@@ -26,5 +26,14 @@ namespace FizzBuzz_Test
                 Program.Convert(number), "Fizz"
             );
         }
+
+        [DataTestMethod]
+        [DataRow(5)]
+        public void Converting_A_Number_Only_Divisible_By_5_But_Not_By_3_Returns_Fizz(int number)
+        {
+            Assert.AreEqual(
+                Program.Convert(number), "Buzz"
+            );
+        }
     }
 }
