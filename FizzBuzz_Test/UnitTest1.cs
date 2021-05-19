@@ -7,9 +7,12 @@ namespace FizzBuzz_Test
     public class UnitTest1
     {
         [TestMethod]
-        public void Converting_A_Number_Not_Divisible_By_3_or_5_Returns_That_Number()
+        [DataRow(2)]
+        [DataRow(5)]
+        [DataRow(87)]
+        public void Converting_A_Number_Not_Divisible_By_3_or_5_Returns_That_Number(int number)
         {
-            Assert.AreEqual(Program.Convert(1), "1") ;
+            Assert.AreEqual(Program.Convert(number), number.ToString()) ;
         }
     }
 }
