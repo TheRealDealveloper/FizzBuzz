@@ -10,8 +10,7 @@ namespace FizzBuzz
         }
         public static string Convert(int number)
         {
-            if (number == 1) return "1";
-            else return "2";
+            return number.ToString(); 
 
         }
     }
