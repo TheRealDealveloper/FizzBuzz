@@ -18,7 +18,12 @@ namespace FizzBuzz
         {
             if (isDivisibleBy(number, 3))
             {
+                if (isDivisibleBy(number, 5))
+                {
+                    return "FizzBuzz";
+                }
                 return "Fizz";
+                
             }
             else if (isDivisibleBy(number, 5))
             {

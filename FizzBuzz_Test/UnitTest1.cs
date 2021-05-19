@@ -37,7 +37,7 @@ namespace FizzBuzz_Test
             );
         }
         [DataTestMethod]
-        [DataRow(5)]
+        [DataRow(15)]
         public void Converting_A_Number_Only_Divisible_By_3_And_By_5_Returns_FizzBuzz(int number)
         {
             Assert.AreEqual(
