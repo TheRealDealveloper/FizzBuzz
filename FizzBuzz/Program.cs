@@ -10,7 +10,14 @@ namespace FizzBuzz
         }
         public static string Convert(int number)
         {
-            return number.ToString(); 
+            if (number == 3)
+            {
+                return "Fizz";
+            }
+            else
+            {
+                return number.ToString();
+            }
 
         }
     }
