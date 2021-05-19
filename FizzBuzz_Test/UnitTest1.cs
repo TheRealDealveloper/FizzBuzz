@@ -19,6 +19,7 @@ namespace FizzBuzz_Test
 
         [DataTestMethod]
         [DataRow(3)]
+        [DataRow(6)]
         public void Converting_A_Number_Only_Divisible_By_3_But_Not_By_5_Returns_Fizz(int number)
         {
             Assert.AreEqual(
